@@ -4,10 +4,6 @@
 
 ## Table of Contents
 - [Getting Started](#getting-started)
-- [Usage](#usage)
-- [Example Code](#example-code)
-- [Installation](#installation)
-- [License](#license)
 
 ## Getting Started
 
@@ -25,14 +21,6 @@ This JavaScript class allows you to manage and utilize custom events in your app
 - `callback`: A function to be invoked when the event is emitted.
 - `payload`: Optional data to be sent to subscribers when the event is emitted.
 
-## Usage
 
-Here are the primary methods you'll use with `EventEmitter`:
 
-### subscribeEvent
-
-Subscribe to an event with a callback:
-
-```javascript
-emitter.subscribeEvent('eventName', callbackFunction);
 
