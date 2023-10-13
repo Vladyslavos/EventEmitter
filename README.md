@@ -1,6 +1,6 @@
 # EventEmitter in JavaScript
 
-`EventEmitter` is a simplistic class that implements the Observer design pattern in JavaScript, providing mechanisms to subscribe to, emit, and unsubscribe from events, as well as emit them with optional data.
+`EventEmitter` is a simplistic class implementing the Observer design pattern in JavaScript, enabling event subscription, unsubscription, and emission with optional data.
 
 ## Table of Contents
 - [Getting Started](#getting-started)
@@ -35,3 +35,4 @@ Subscribe to an event with a callback:
 
 ```javascript
 emitter.subscribeEvent('eventName', callbackFunction);
+
